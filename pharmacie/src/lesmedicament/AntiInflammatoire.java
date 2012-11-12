@@ -15,7 +15,7 @@ public AntiInflammatoire(String l,int r,float p,String d,String m,int a){
 public float calculTaxeAppliquee() {
 	
 	float p;
-	if(this.molcule == "stéroïdien")
+	if(this.molcule == "stï¿½roï¿½dien")
 		p=prix*(float)(0.10);
 	else
 		p=prix*(float)(0.15);
@@ -23,7 +23,7 @@ public float calculTaxeAppliquee() {
 	
 }
 public String toString(){
-	return super.toString()+"  molcule: "+molcule+" acidite "+acidite+" "+"le tax : "+calculTaxeAppliquee();
+	return super.toString()+"  molcule: "+molcule+" acidite  :"+acidite+" "+"le tax : "+calculTaxeAppliquee();
 }
 	
 
