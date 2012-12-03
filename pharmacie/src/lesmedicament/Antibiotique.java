@@ -26,7 +26,7 @@ public class Antibiotique extends Medicament {
 	}
 	
 public String toString(){
-	return super.toString()+"bacterie : "+bacterie+"le tax : "+calculTaxeAppliquee();
+	return super.toString()+"bacterie : "+bacterie+"le tax est  : "+calculTaxeAppliquee();
 }
 	
 
